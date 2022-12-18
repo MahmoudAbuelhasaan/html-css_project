@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 10px;
+    background: #c9c2c2a6;
+  }
+  
+  .header {
+    height: 200px;
+    padding-top: 100px;
+    padding-left: 10px;
+    background: rgb(118, 97, 153);
+    display: flex;
+    background-image:url("download.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 98%;
+   
+  }
+  
+  .topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration:underline
+  }
+  
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #c9c2c2a6;
+  }
+  
+  .fakeimg {
+    background-color:rgb(35, 109, 184);;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: rgb(114, 123, 204);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    padding: 5px;
+    text-align: center;
+    background: rgb(135, 135, 153);
+    margin-top: 20px;
+  }
+  .chat{
+
+    display: flex; 
+    margin: 5px;
+
+  }
+  
+.chat:hover{
+
+cursor: pointer;
+background-color:cornflowerblue;
+
+
+
+
+}
+img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+
+
+
+}
+h1:hover {
+
+  cursor: pointer;
+  text-decoration:underline
+
+
+}
+h2:hover {
+
+  cursor: pointer;
+  text-decoration:underline
+
+
+}
+h3:hover {
+
+  cursor: pointer;
+  text-decoration:underline
+
+
+}
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
